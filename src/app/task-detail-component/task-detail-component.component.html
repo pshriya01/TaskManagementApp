@@ -1,0 +1,20 @@
+<div class="task-div">
+    <div class="heading">
+        <h3>Task No- {{selectedTask.id}}</h3>
+        <button (click)="markCompleted()">Mark as completed</button>
+    </div>
+    
+    <div class="content" style="display: flex; justify-content: space-between;">
+        <h4 class="left">Task Title</h4>
+        <p class="right">{{ selectedTask.title }}</p>
+    </div>
+    <div class="content" style="display: flex;justify-content: space-between;">
+        <h4 class="left">Task Description</h4>
+        <p class="right">{{ selectedTask.description }}</p>
+    </div>
+    <div class="content" style="display: flex;justify-content: space-between;">
+        <h4 class="left">Task Status</h4>
+        <p class="right">{{ selectedTask.completed ? 'Completed' : 'Incomplete' }}</p>
+    </div> 
+  </div>
+  

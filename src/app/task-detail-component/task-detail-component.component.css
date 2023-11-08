@@ -1,0 +1,37 @@
+.task-div {
+    width: 40%;
+    box-shadow: #a0bccc 0px 3px 8px; 
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    padding: 2rem;
+}
+.content {
+    border: 1px solid #a0bccc;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+.left {
+    width: 30%;
+    text-align: left;
+}
+
+.right {
+    width: 60%;
+    text-align: left;
+    
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 2rem;
+    border-radius: 0.3rem;
+    background-color: #f59a7b;
+    color: #003f67;
+    font-weight: 600;
+}

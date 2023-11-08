@@ -1,0 +1,17 @@
+<div class="flex">
+    <div >
+       <form (ngSubmit)="addTask()" #taskForm="ngForm" class="form">
+       <label for="title">Title:</label>
+       <br/>
+       <input id="title" type="text" name="title" placeholder="Title" required [(ngModel)]="newTask.title"/>
+       <br/>
+       <br/>
+       <label for="description">Description:</label>
+       <br/>
+       <textarea id="description" name="description" rows="4" cols="59%" required [(ngModel)]="newTask.description"></textarea>
+       <br/>
+       <br />
+       <button type="submit">Add Task</button>
+     </form>
+    </div>
+</div>

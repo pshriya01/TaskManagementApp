@@ -1,0 +1,50 @@
+.task-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.5rem;
+    width: 60%;
+    margin: auto;
+}
+.title {
+    width: 60%;
+}
+.button {
+    width: 40%;
+}
+
+h2 {
+    text-align: center;
+    color: #003f67;
+}
+.button button {
+    background-color: #f59a7b;
+    color: #003f67;
+    height: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 10%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+.title>div {
+    border-radius: 50%;
+    margin-right: 1rem;
+    border: 2px solid #003f67 ;
+    height: 0.7rem;
+    width: 0.7rem;
+}
+
+.background {
+    margin-top: 5%;
+}
+.border {
+    border: 2px solid #003f67;
+    margin-bottom: 2rem;
+}
